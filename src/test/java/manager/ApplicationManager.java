@@ -11,7 +11,8 @@ public class ApplicationManager {
     static WebDriver wd;
     public static void init(){
         wd=new ChromeDriver();
-        wd.navigate().to("https://trello.com/home");
+       // wd.navigate().to("https://trello.com/home");
+        navigate();
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
@@ -19,7 +20,12 @@ public class ApplicationManager {
     public  static void tearDown(){
         wd.quit();
     }
-    public static WebDriver getDriver(){
+
+    public static WebDriver getWd() {
+
         return wd;
+    }
+    public static void navigate(){
+        wd.navigate().to("https://trello.com/home");
     }
 }
