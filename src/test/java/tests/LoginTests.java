@@ -19,7 +19,7 @@ public class LoginTests extends BaseTest {
             logger.info("method information "+method.getName());
 
         }else if (flagNeedOpenMain){
-            ApplicationManager.navigate();
+            ApplicationManager.navigateHomePage();
             flagNeedOpenMain=false;
             logger.info("flagNeedOpenMain"+flagNeedOpenMain);
 
@@ -31,7 +31,7 @@ public class LoginTests extends BaseTest {
     public void LoginPositivTest() {
         helperUser.login(user);
         flagNeedLogout=true;
-        helperUser.pause();
+       // helperUser.pause();
         Assert.assertTrue(helperUser.validateTextBoardsExist());
 
     }
@@ -42,8 +42,8 @@ public class LoginTests extends BaseTest {
         helperUser.printEmail("pesinily@gmail.com");
         helperUser.submitLogin();
         flagNeedOpenMain=true;
-        helperUser.pause();
-      //  Assert.assertTrue(helperUser.validateTextSignUpH5Displays());
+//        helperUser.pause();
+//        Assert.assertTrue(helperUser.validateTextSignUpH5Displays());
 
     }
 

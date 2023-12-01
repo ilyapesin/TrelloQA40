@@ -1,0 +1,41 @@
+22:39:40 INFO  tests.BaseTest - open brauser
+22:39:47 INFO  tests.BaseTest - before method LoginNegativeTest
+22:39:47 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //a[contains(@data-uuid, 'login')]
+22:39:47 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //a[contains(@data-uuid, 'login')] is found
+22:39:52 INFO  manager.HelperBase - Locator By.xpath: //a[contains(@data-uuid, 'login')] clicked
+22:39:52 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //input[@id='username']
+22:39:53 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //input[@id='username'] is found
+22:39:53 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@id='login-submit']
+22:39:53 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@id='login-submit'] is found
+22:39:54 INFO  manager.HelperBase - Locator By.xpath: //button[@id='login-submit'] clicked
+22:39:54 INFO  tests.BaseTest - flagNeedOpenMainfalse
+22:39:54 INFO  tests.BaseTest - after method LoginNegativeTest
+22:39:54 INFO  tests.BaseTest - before method LoginPositivTest
+22:39:54 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //a[contains(@data-uuid, 'login')]
+22:39:54 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //a[contains(@data-uuid, 'login')] is found
+22:39:54 INFO  manager.HelperBase - Locator By.xpath: //a[contains(@data-uuid, 'login')] clicked
+22:39:54 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //input[@id='username']
+22:39:55 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //input[@id='username'] is found
+22:39:55 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@id='login-submit']
+22:39:55 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@id='login-submit'] is found
+22:39:55 INFO  manager.HelperBase - Locator By.xpath: //button[@id='login-submit'] clicked
+22:39:55 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //input[@id='password']
+22:39:55 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //input[@id='password'] is found
+22:39:55 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@id='login-submit']
+22:39:55 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@id='login-submit'] is found
+22:39:55 INFO  manager.HelperBase - Locator By.xpath: //button[@id='login-submit'] clicked
+22:39:55 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //span[text()='Boards']
+22:40:08 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //span[text()='Boards'] is found
+22:40:08 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //div[@data-testid='header-member-menu-avatar']/span
+22:40:08 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //div[@data-testid='header-member-menu-avatar']/span is found
+22:40:08 INFO  manager.HelperBase - Locator By.xpath: //div[@data-testid='header-member-menu-avatar']/span clicked
+22:40:08 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@data-testid='account-menu-logout']
+22:40:08 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@data-testid='account-menu-logout'] is found
+22:40:12 INFO  manager.HelperBase - Locator By.xpath: //button[@data-testid='account-menu-logout'] clicked
+22:40:12 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@data-testid='logout-button']
+22:40:12 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@data-testid='logout-button'] is found
+22:40:16 INFO  manager.HelperBase - Locator By.xpath: //button[@data-testid='logout-button'] clicked
+22:40:16 INFO  tests.BaseTest - flagNeedLogoutfalse
+22:40:16 INFO  tests.BaseTest - method information LoginPositivTest
+22:40:16 INFO  tests.BaseTest - after method LoginPositivTest
+22:40:16 INFO  tests.BaseTest - close brauser

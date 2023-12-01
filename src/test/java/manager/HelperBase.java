@@ -1,11 +1,16 @@
 package manager;
 
+import com.google.common.io.Files;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.xml.stream.XMLStreamReader;
+import java.io.File;
+import java.io.IOException;
 
 public class HelperBase {
     Logger logger= LoggerFactory.getLogger(HelperBase.class);
@@ -40,6 +45,16 @@ public class HelperBase {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
+        }
+    }
+    public void takeScreenshot(String link){
+        File tmp = ((TakesScreenshot)ApplicationManager.getWd()).getScreenshotAs(OutputType.FILE);
+        File screenshot=new File(link);
+
+        try {
+            Files.copy(tmp, screenshot);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }

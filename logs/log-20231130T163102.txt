@@ -1,0 +1,13 @@
+16:31:02 INFO  tests.BaseTest - open brauser
+16:31:09 INFO  tests.BaseTest - before method LoginNegativeTest
+16:31:09 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //a[contains(@data-uuid, 'login')]
+16:31:09 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //a[contains(@data-uuid, 'login')] is found
+16:31:12 INFO  manager.HelperBase - Locator By.xpath: //a[contains(@data-uuid, 'login')] clicked
+16:31:12 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //input[@id='username']
+16:31:12 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //input[@id='username'] is found
+16:31:13 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@id='login-submit']
+16:31:13 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@id='login-submit'] is found
+16:31:13 INFO  manager.HelperBase - Locator By.xpath: //button[@id='login-submit'] clicked
+16:31:13 INFO  tests.BaseTest - flagNeedOpenMainfalse
+16:31:13 INFO  tests.BaseTest - after method LoginNegativeTest
+16:31:13 INFO  tests.BaseTest - close brauser

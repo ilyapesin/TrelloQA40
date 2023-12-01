@@ -20,9 +20,6 @@ public class HelperUser extends HelperBase {
     By inputPassword = By.xpath("//input[@id='password']");
     By textBoards = By.xpath("//span[text()='Boards']");
     By textH5SignUp = By.xpath("//h5");
-    By btnLogOut1 = By.xpath("//*[contains(@aria-label,'ILYA PESIN (pesinilya)')]");
-    By btnLogOut2 = By.xpath("//*[text()='Log out']");
-    By btnLogOut3 = By.xpath("//*[@class='css-178ag6o']");
 
 //    public void loginUser(UserDTO userDTO) {
 //        click(btnLogin);

@@ -1,0 +1,17 @@
+22:23:42 INFO  tests.BaseTest - open brauser
+22:23:50 INFO  tests.BaseTest - before method LoginNegativeTest
+22:23:55 INFO  manager.HelperBase - Locator By.xpath: //a[contains(@data-uuid, 'login')] clicked
+22:23:56 INFO  manager.HelperBase - Locator By.xpath: //button[@id='login-submit'] clicked
+22:23:57 INFO  tests.BaseTest - flagNeedOpenMainfalse
+22:23:57 INFO  tests.BaseTest - after method LoginNegativeTest
+22:23:57 INFO  tests.BaseTest - before method LoginPositivTest
+22:23:57 INFO  manager.HelperBase - Locator By.xpath: //a[contains(@data-uuid, 'login')] clicked
+22:23:58 INFO  manager.HelperBase - Locator By.xpath: //button[@id='login-submit'] clicked
+22:23:58 INFO  manager.HelperBase - Locator By.xpath: //button[@id='login-submit'] clicked
+22:24:11 INFO  manager.HelperBase - Locator By.xpath: //div[@data-testid='header-member-menu-avatar']/span clicked
+22:24:13 INFO  manager.HelperBase - Locator By.xpath: //button[@data-testid='account-menu-logout'] clicked
+22:24:18 INFO  manager.HelperBase - Locator By.xpath: //button[@data-testid='logout-button'] clicked
+22:24:18 INFO  tests.BaseTest - flagNeedLogoutfalse
+22:24:18 INFO  tests.BaseTest - method information LoginPositivTest
+22:24:18 INFO  tests.BaseTest - after method LoginPositivTest
+22:24:18 INFO  tests.BaseTest - close brauser
