@@ -6,6 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import utils.DateUtils;
+
+import java.util.Date;
 
 public class WebDriverListener extends AbstractWebDriverEventListener {
 Logger logger= LoggerFactory.getLogger(WebDriverListener.class);
@@ -32,11 +35,41 @@ Logger logger= LoggerFactory.getLogger(WebDriverListener.class);
         logger.info("Something went wrong");
         logger.info(throwable.getMessage());
         logger.info(throwable.fillInStackTrace().toString());
-        int i=(int)(System.currentTimeMillis()/1000)%3600;
-        String link="src/test/screenshorts/screen"+i+".png";
+        logger.error("Message: " + throwable.getMessage());
+       // int i=(int)(System.currentTimeMillis()/1000)%3600;
+      //  String link="src/test/screenshorts/screen"+i+".png";
+        String link="src/test/screenshorts/screen"+ DateUtils.getDateString() +".png";
         HelperBase helperBase=new HelperBase();
         helperBase.takeScreenshot(link);
         logger.info("Screenshot ---->"+link);
     }
 
+    @Override
+    public void beforeAlertAccept(WebDriver driver) {
+        super.beforeAlertAccept(driver);
+        logger.info("BeforeAlertAccept ---->"+driver);
+    }
+
+    @Override
+    public void afterAlertAccept(WebDriver driver) {
+        super.afterAlertAccept(driver);
+    }
+
+    @Override
+    public void beforeNavigateTo(String url, WebDriver driver) {
+        super.beforeNavigateTo(url, driver);
+        logger.info("BeforeNavigateTo ---->"+url);
+    }
+
+    @Override
+    public void afterNavigateTo(String url, WebDriver driver) {
+        super.afterNavigateTo(url, driver);
+        logger.info("AfterNavigateTo----->"+url+"succses");
+    }
+
+    @Override
+    public void beforeClickOn(WebElement element, WebDriver driver) {
+        super.beforeClickOn(element, driver);
+        logger.info("before click"+element.toString());
+    }
 }

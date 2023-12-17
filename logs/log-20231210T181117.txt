@@ -1,0 +1,62 @@
+18:11:19 INFO  manager.ApplicationManager - Tests start on Firefox
+18:11:19 INFO  manager.WebDriverListener - BeforeNavigateTo ---->https://trello.com/home
+18:11:24 INFO  manager.WebDriverListener - AfterNavigateTo----->https://trello.com/homesuccses
+18:11:24 INFO  tests.BaseTest - open browser
+18:11:24 INFO  tests.BaseTest - before method LoginNegativeTest
+18:11:24 INFO  manager.TestNGListener - TestNG listener Start: LoginNegativeTest
+18:11:24 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //a[contains(@data-uuid, 'login')]
+18:11:24 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //a[contains(@data-uuid, 'login')] is found
+18:11:24 INFO  manager.WebDriverListener - before click[[FirefoxDriver: firefox on MAC (96890f22-b4a2-4e10-9808-1e0752df59cf)] -> xpath: //a[contains(@data-uuid, 'login')]]
+18:11:32 INFO  manager.HelperBase - Locator By.xpath: //a[contains(@data-uuid, 'login')] clicked
+18:11:32 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //input[@id='username']
+18:11:32 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //input[@id='username'] is found
+18:11:32 INFO  manager.WebDriverListener - before click[[FirefoxDriver: firefox on MAC (96890f22-b4a2-4e10-9808-1e0752df59cf)] -> xpath: //input[@id='username']]
+18:11:33 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@id='login-submit']
+18:11:33 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@id='login-submit'] is found
+18:11:33 INFO  manager.WebDriverListener - before click[[FirefoxDriver: firefox on MAC (96890f22-b4a2-4e10-9808-1e0752df59cf)] -> xpath: //button[@id='login-submit']]
+18:11:33 INFO  manager.HelperBase - Locator By.xpath: //button[@id='login-submit'] clicked
+18:11:33 INFO  manager.TestNGListener - TestNG listener Success: LoginNegativeTest
+18:11:33 INFO  manager.WebDriverListener - BeforeNavigateTo ---->https://trello.com/home
+18:11:33 INFO  manager.WebDriverListener - AfterNavigateTo----->https://trello.com/homesuccses
+18:11:33 INFO  tests.BaseTest - flagNeedOpenMainfalse
+18:11:33 INFO  tests.BaseTest - after method LoginNegativeTest
+18:11:33 INFO  tests.BaseTest - before method LoginPositivTest
+18:11:33 INFO  manager.TestNGListener - TestNG listener Start: LoginPositivTest
+18:11:33 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //a[contains(@data-uuid, 'login')]
+18:11:33 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //a[contains(@data-uuid, 'login')] is found
+18:11:33 INFO  manager.WebDriverListener - before click[[FirefoxDriver: firefox on MAC (96890f22-b4a2-4e10-9808-1e0752df59cf)] -> xpath: //a[contains(@data-uuid, 'login')]]
+18:11:34 INFO  manager.HelperBase - Locator By.xpath: //a[contains(@data-uuid, 'login')] clicked
+18:11:34 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //input[@id='username']
+18:11:34 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //input[@id='username'] is found
+18:11:34 INFO  manager.WebDriverListener - before click[[FirefoxDriver: firefox on MAC (96890f22-b4a2-4e10-9808-1e0752df59cf)] -> xpath: //input[@id='username']]
+18:11:34 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@id='login-submit']
+18:11:34 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@id='login-submit'] is found
+18:11:34 INFO  manager.WebDriverListener - before click[[FirefoxDriver: firefox on MAC (96890f22-b4a2-4e10-9808-1e0752df59cf)] -> xpath: //button[@id='login-submit']]
+18:11:34 INFO  manager.HelperBase - Locator By.xpath: //button[@id='login-submit'] clicked
+18:11:34 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //input[@id='password']
+18:11:34 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //input[@id='password'] is found
+18:11:34 INFO  manager.WebDriverListener - before click[[FirefoxDriver: firefox on MAC (96890f22-b4a2-4e10-9808-1e0752df59cf)] -> xpath: //input[@id='password']]
+18:11:34 INFO  manager.WebDriverListener - Something went wrong
+18:11:34 INFO  manager.WebDriverListener - Element <input id="password" class="css-1cab8vv" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:56e:944e:885f:3dbb:89cf:b51b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 39224, moz:profile: /var/folders/wv/d1h11w2x5lq..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 96890f22-b4a2-4e10-9808-1e0752df59cf
+18:11:34 INFO  manager.WebDriverListener - org.openqa.selenium.ElementNotInteractableException: Element <input id="password" class="css-1cab8vv" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:56e:944e:885f:3dbb:89cf:b51b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 39224, moz:profile: /var/folders/wv/d1h11w2x5lq..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 96890f22-b4a2-4e10-9808-1e0752df59cf
+18:11:34 ERROR manager.WebDriverListener - Message: Element <input id="password" class="css-1cab8vv" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:56e:944e:885f:3dbb:89cf:b51b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 39224, moz:profile: /var/folders/wv/d1h11w2x5lq..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 96890f22-b4a2-4e10-9808-1e0752df59cf
+18:11:35 INFO  manager.WebDriverListener - Screenshot ---->src/test/screenshorts/screen2023-12-10_18:11:34.png
+18:11:35 INFO  manager.TestNGListener - TestNG listener Failure: LoginPositivTest
+18:11:35 INFO  tests.BaseTest - after method LoginPositivTest
+18:11:35 INFO  manager.TestNGListener - TestNG listener: Gradle test
+18:11:35 INFO  tests.BaseTest - close browser

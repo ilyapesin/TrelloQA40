@@ -1,0 +1,43 @@
+09:04:28 INFO  tests.BaseTest - open brauser
+09:04:30 INFO  manager.WebDriverListener - BeforeNavigateTo ---->https://trello.com/home
+09:04:36 INFO  manager.WebDriverListener - AfterNavigateTo----->https://trello.com/homesuccses
+09:04:36 INFO  tests.BaseTest - before method LoginPositivTest
+09:04:36 INFO  manager.TestNGListener - TestNG listener Start: LoginPositivTest
+09:04:36 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //a[contains(@data-uuid, 'login')]
+09:04:36 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //a[contains(@data-uuid, 'login')] is found
+09:04:36 INFO  manager.WebDriverListener - before click[[FirefoxDriver: firefox on MAC (cfaeec25-ead7-4f6e-92c1-427a93d7cf7c)] -> xpath: //a[contains(@data-uuid, 'login')]]
+09:04:41 INFO  manager.HelperBase - Locator By.xpath: //a[contains(@data-uuid, 'login')] clicked
+09:04:41 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //input[@id='username']
+09:04:41 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //input[@id='username'] is found
+09:04:41 INFO  manager.WebDriverListener - before click[[FirefoxDriver: firefox on MAC (cfaeec25-ead7-4f6e-92c1-427a93d7cf7c)] -> xpath: //input[@id='username']]
+09:04:42 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@id='login-submit']
+09:04:42 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@id='login-submit'] is found
+09:04:42 INFO  manager.WebDriverListener - before click[[FirefoxDriver: firefox on MAC (cfaeec25-ead7-4f6e-92c1-427a93d7cf7c)] -> xpath: //button[@id='login-submit']]
+09:04:42 INFO  manager.HelperBase - Locator By.xpath: //button[@id='login-submit'] clicked
+09:04:42 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //input[@id='password']
+09:04:42 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //input[@id='password'] is found
+09:04:42 INFO  manager.WebDriverListener - before click[[FirefoxDriver: firefox on MAC (cfaeec25-ead7-4f6e-92c1-427a93d7cf7c)] -> xpath: //input[@id='password']]
+09:04:42 INFO  manager.WebDriverListener - Something went wrong
+09:04:42 INFO  manager.WebDriverListener - Element <input id="password" class="css-1cab8vv" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:56e:940f:d4e8:6e22:88fe:cd79%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 26666, moz:profile: /var/folders/wv/d1h11w2x5lq..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cfaeec25-ead7-4f6e-92c1-427a93d7cf7c
+09:04:42 INFO  manager.WebDriverListener - org.openqa.selenium.ElementNotInteractableException: Element <input id="password" class="css-1cab8vv" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:56e:940f:d4e8:6e22:88fe:cd79%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 26666, moz:profile: /var/folders/wv/d1h11w2x5lq..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cfaeec25-ead7-4f6e-92c1-427a93d7cf7c
+09:04:42 ERROR manager.WebDriverListener - Message: Element <input id="password" class="css-1cab8vv" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:56e:940f:d4e8:6e22:88fe:cd79%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 26666, moz:profile: /var/folders/wv/d1h11w2x5lq..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cfaeec25-ead7-4f6e-92c1-427a93d7cf7c
+09:04:42 INFO  manager.WebDriverListener - Screenshot ---->src/test/screenshorts/screen2023-12-10_09:04:42.png
+09:04:42 INFO  manager.TestNGListener - TestNG listener Failure: LoginPositivTest
+09:04:42 INFO  tests.BaseTest - after method LoginPositivTest
+09:04:42 INFO  manager.TestNGListener - TestNG listener: Gradle test
+09:04:42 INFO  tests.BaseTest - close brauser

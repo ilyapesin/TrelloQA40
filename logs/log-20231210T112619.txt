@@ -1,0 +1,8 @@
+11:26:19 INFO  tests.BaseTest - open brauser
+11:26:20 INFO  manager.WebDriverListener - BeforeNavigateTo ---->https://trello.com/home
+11:26:21 INFO  manager.TestNGListener - TestNG listener Start: LoginNegativeTest
+11:26:21 INFO  manager.TestNGListener - TestNG listener Skipped: LoginNegativeTest
+11:26:21 INFO  manager.TestNGListener - TestNG listener Start: LoginPositivTest
+11:26:21 INFO  manager.TestNGListener - TestNG listener Skipped: LoginPositivTest
+11:26:21 INFO  manager.TestNGListener - TestNG listener: Gradle test
+11:26:21 INFO  tests.BaseTest - close brauser

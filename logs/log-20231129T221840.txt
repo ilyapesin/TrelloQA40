@@ -1,7 +1,0 @@
-22:18:40 INFO  tests.BaseTest - open brauser
-22:18:47 INFO  tests.BaseTest - before method LoginNegativeTest
-22:18:55 INFO  manager.HelperBase - Locator By.xpath: //a[contains(@data-uuid, 'login')] clicked
-22:18:57 INFO  manager.HelperBase - Locator By.xpath: //button[@id='login-submit'] clicked
-22:19:03 INFO  tests.BaseTest - flagNeedOpenMainfalse
-22:19:03 INFO  tests.BaseTest - after method LoginNegativeTest
-22:19:03 INFO  tests.BaseTest - close brauser

@@ -1,21 +1,19 @@
 package tests;
 
 import dto.UserDTOLombok;
-import manager.ApplicationManager;
-import manager.HelperUser;
-import manager.HalperLogout;
+import manager.*;
+import org.openqa.selenium.remote.BrowserType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 
 import java.lang.reflect.Method;
-
+@Listeners(TestNGListener.class)
 public class BaseTest {
     HelperUser helperUser = new HelperUser();
     HalperLogout halperLogout = new HalperLogout();
+    HelperBoards halperBoards = new HelperBoards();
+
     Logger logger= LoggerFactory.getLogger(BaseTest.class);
     UserDTOLombok user = UserDTOLombok.builder()
             .email("pesinilya@gmail.com")
@@ -23,16 +21,17 @@ public class BaseTest {
             .build();
     boolean flagNeedLogout = false;
     boolean flagNeedOpenMain = false;
-    @BeforeSuite
-    public void precondition() throws Exception {
-        logger.info("open brauser");
+
+    @BeforeSuite(alwaysRun = true)
+    public void precondition(){
 
         ApplicationManager.init();
+        logger.info("open browser");
     }
-    @AfterSuite
+    @AfterSuite(alwaysRun = true)
     public void postcondition(){
-        logger.info("close brauser");
         ApplicationManager.tearDown();
+        logger.info("close browser");
     }
     @BeforeMethod
     public void beforeMethod(Method method) {

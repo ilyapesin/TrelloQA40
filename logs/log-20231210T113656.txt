@@ -1,0 +1,57 @@
+11:36:56 INFO  tests.BaseTest - open brauser
+11:36:58 INFO  manager.WebDriverListener - BeforeNavigateTo ---->https://trello.com/home
+11:37:03 INFO  manager.WebDriverListener - AfterNavigateTo----->https://trello.com/homesuccses
+11:37:03 INFO  tests.BaseTest - before method LoginNegativeTest
+11:37:03 INFO  manager.TestNGListener - TestNG listener Start: LoginNegativeTest
+11:37:03 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //a[contains(@data-uuid, 'login')]
+11:37:03 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //a[contains(@data-uuid, 'login')] is found
+11:37:03 INFO  manager.WebDriverListener - before click[[ChromeDriver: chrome on MAC (352cf798ee59bde2d432a80483998b77)] -> xpath: //a[contains(@data-uuid, 'login')]]
+11:37:11 INFO  manager.HelperBase - Locator By.xpath: //a[contains(@data-uuid, 'login')] clicked
+11:37:11 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //input[@id='username']
+11:37:12 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //input[@id='username'] is found
+11:37:12 INFO  manager.WebDriverListener - before click[[ChromeDriver: chrome on MAC (352cf798ee59bde2d432a80483998b77)] -> xpath: //input[@id='username']]
+11:37:12 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@id='login-submit']
+11:37:12 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@id='login-submit'] is found
+11:37:12 INFO  manager.WebDriverListener - before click[[ChromeDriver: chrome on MAC (352cf798ee59bde2d432a80483998b77)] -> xpath: //button[@id='login-submit']]
+11:37:12 INFO  manager.HelperBase - Locator By.xpath: //button[@id='login-submit'] clicked
+11:37:12 INFO  manager.TestNGListener - TestNG listener Success: LoginNegativeTest
+11:37:12 INFO  manager.WebDriverListener - BeforeNavigateTo ---->https://trello.com/home
+11:37:13 INFO  manager.WebDriverListener - AfterNavigateTo----->https://trello.com/homesuccses
+11:37:13 INFO  tests.BaseTest - flagNeedOpenMainfalse
+11:37:13 INFO  tests.BaseTest - after method LoginNegativeTest
+11:37:13 INFO  tests.BaseTest - before method LoginPositivTest
+11:37:13 INFO  manager.TestNGListener - TestNG listener Start: LoginPositivTest
+11:37:13 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //a[contains(@data-uuid, 'login')]
+11:38:13 INFO  manager.WebDriverListener - Something went wrong
+11:38:13 INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@data-uuid, 'login')]"}
+  (Session info: chrome=119.0.6045.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:56e:9471:5d63:4179:5a21:ab40%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 352cf798ee59bde2d432a80483998b77
+*** Element info: {Using=xpath, value=//a[contains(@data-uuid, 'login')]}
+11:38:13 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@data-uuid, 'login')]"}
+  (Session info: chrome=119.0.6045.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:56e:9471:5d63:4179:5a21:ab40%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 352cf798ee59bde2d432a80483998b77
+*** Element info: {Using=xpath, value=//a[contains(@data-uuid, 'login')]}
+11:38:13 ERROR manager.WebDriverListener - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@data-uuid, 'login')]"}
+  (Session info: chrome=119.0.6045.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:56e:9471:5d63:4179:5a21:ab40%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 352cf798ee59bde2d432a80483998b77
+*** Element info: {Using=xpath, value=//a[contains(@data-uuid, 'login')]}
+11:38:13 INFO  manager.WebDriverListener - Screenshot ---->src/test/screenshorts/screen2023-12-10_11:38:13.png
+11:38:13 INFO  manager.TestNGListener - TestNG listener Failure: LoginPositivTest
+11:38:13 INFO  tests.BaseTest - after method LoginPositivTest
+11:38:13 INFO  manager.TestNGListener - TestNG listener: Gradle test
+11:38:13 INFO  tests.BaseTest - close brauser

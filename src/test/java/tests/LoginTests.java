@@ -1,5 +1,6 @@
 package tests;
 
+import dto.UserDTOLombok;
 import manager.ApplicationManager;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -10,24 +11,25 @@ import java.lang.reflect.Method;
 
 public class LoginTests extends BaseTest {
     @AfterMethod(alwaysRun = true)
-    public void postcondition(Method method){
-        if(flagNeedLogout)
-        {
-            halperLogout.logout();
-            flagNeedLogout=false;
-            logger.info("flagNeedLogout"+flagNeedLogout);
-            logger.info("method information "+method.getName());
 
-        }else if (flagNeedOpenMain){
-            ApplicationManager.navigateHomePage();
-            flagNeedOpenMain=false;
-            logger.info("flagNeedOpenMain"+flagNeedOpenMain);
+    public void postcondition(Method method) {
+           if(flagNeedLogout)
+           {
+               halperLogout.logout();
+               flagNeedLogout=false;
+               logger.info("flagNeedLogout"+flagNeedLogout);
+               logger.info("method information "+method.getName());
 
-        }
+           }else if (flagNeedOpenMain){
+               ApplicationManager.navigateHomePage();
+               flagNeedOpenMain=false;
+               logger.info("flagNeedOpenMain"+flagNeedOpenMain);
+
+           }
 
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void LoginPositivTest() {
         helperUser.login(user);
         flagNeedLogout=true;

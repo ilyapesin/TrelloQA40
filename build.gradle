@@ -24,3 +24,40 @@ dependencies {
 test {
     useTestNG()
 }
+task logintest(type:Test) {
+    useTestNG() {
+        suites 'src/test/resources/testng.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "$browser"
+    }
+}
+task groupstests(type: Test){
+    useTestNG(){
+        suites 'src/test/resources/testng.xml'
+        def groups = System.getProperty('groups')
+        if(groups != null) {
+            includeGroups groups
+        }
+    }
+    if(project.hasProperty('browser')){
+        systemProperty 'browser', "${browser}"
+    }
+}
+task boards(type:Test){
+    useTestNG(){
+        def suite = System.getProperty('suite')
+        if(suite.equals ('boardst')) {
+            suites 'src/test/resources/board.xml'
+        }else{
+            suites 'src/test/resources/testng.xml'
+        }
+
+    }
+    if(project.hasProperty('browser')){
+        systemProperty 'browser', "${browser}"
+    }
+    if(project.hasProperty('target')){
+        systemProperty 'target', "${target}"
+    }
+}

@@ -1,0 +1,3 @@
+12:38:32 INFO  manager.TestNGListener - TestNG listener Start: LoginPositivTest
+12:38:32 INFO  manager.TestNGListener - TestNG listener Skipped: LoginPositivTest
+12:38:32 INFO  manager.TestNGListener - TestNG listener: Gradle test

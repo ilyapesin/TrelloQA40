@@ -1,0 +1,7 @@
+11:18:55 INFO  tests.BaseTest - open brauser
+11:18:55 INFO  manager.TestNGListener - TestNG listener Start: LoginNegativeTest
+11:18:55 INFO  manager.TestNGListener - TestNG listener Skipped: LoginNegativeTest
+11:18:55 INFO  manager.TestNGListener - TestNG listener Start: LoginPositivTest
+11:18:55 INFO  manager.TestNGListener - TestNG listener Skipped: LoginPositivTest
+11:18:55 INFO  manager.TestNGListener - TestNG listener: Gradle test
+11:18:55 INFO  tests.BaseTest - close brauser

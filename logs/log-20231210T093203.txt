@@ -1,0 +1,61 @@
+09:32:03 INFO  tests.BaseTest - open brauser
+09:32:04 INFO  manager.WebDriverListener - BeforeNavigateTo ---->https://trello.com/home
+09:32:09 INFO  manager.WebDriverListener - AfterNavigateTo----->https://trello.com/homesuccses
+09:32:10 INFO  tests.BaseTest - before method LoginNegativeTest
+09:32:10 INFO  manager.TestNGListener - TestNG listener Start: LoginNegativeTest
+09:32:10 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //a[contains(@data-uuid, 'login')]
+09:32:10 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //a[contains(@data-uuid, 'login')] is found
+09:32:10 INFO  manager.WebDriverListener - before click[[ChromeDriver: chrome on MAC (fce8ae64d2489b5ec4951132e4fc1460)] -> xpath: //a[contains(@data-uuid, 'login')]]
+09:32:15 INFO  manager.HelperBase - Locator By.xpath: //a[contains(@data-uuid, 'login')] clicked
+09:32:15 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //input[@id='username']
+09:32:16 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //input[@id='username'] is found
+09:32:16 INFO  manager.WebDriverListener - before click[[ChromeDriver: chrome on MAC (fce8ae64d2489b5ec4951132e4fc1460)] -> xpath: //input[@id='username']]
+09:32:16 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@id='login-submit']
+09:32:16 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@id='login-submit'] is found
+09:32:16 INFO  manager.WebDriverListener - before click[[ChromeDriver: chrome on MAC (fce8ae64d2489b5ec4951132e4fc1460)] -> xpath: //button[@id='login-submit']]
+09:32:16 INFO  manager.HelperBase - Locator By.xpath: //button[@id='login-submit'] clicked
+09:32:16 INFO  manager.TestNGListener - TestNG listener Success: LoginNegativeTest
+09:32:16 INFO  manager.WebDriverListener - BeforeNavigateTo ---->https://trello.com/home
+09:32:17 INFO  manager.WebDriverListener - AfterNavigateTo----->https://trello.com/homesuccses
+09:32:17 INFO  tests.BaseTest - flagNeedOpenMainfalse
+09:32:17 INFO  tests.BaseTest - after method LoginNegativeTest
+09:32:17 INFO  tests.BaseTest - before method LoginPositivTest
+09:32:17 INFO  manager.TestNGListener - TestNG listener Start: LoginPositivTest
+09:32:17 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //a[contains(@data-uuid, 'login')]
+09:32:17 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //a[contains(@data-uuid, 'login')] is found
+09:32:17 INFO  manager.WebDriverListener - before click[[ChromeDriver: chrome on MAC (fce8ae64d2489b5ec4951132e4fc1460)] -> xpath: //a[contains(@data-uuid, 'login')]]
+09:32:17 INFO  manager.HelperBase - Locator By.xpath: //a[contains(@data-uuid, 'login')] clicked
+09:32:17 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //input[@id='username']
+09:32:18 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //input[@id='username'] is found
+09:32:18 INFO  manager.WebDriverListener - before click[[ChromeDriver: chrome on MAC (fce8ae64d2489b5ec4951132e4fc1460)] -> xpath: //input[@id='username']]
+09:32:18 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@id='login-submit']
+09:32:18 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@id='login-submit'] is found
+09:32:18 INFO  manager.WebDriverListener - before click[[ChromeDriver: chrome on MAC (fce8ae64d2489b5ec4951132e4fc1460)] -> xpath: //button[@id='login-submit']]
+09:32:18 INFO  manager.HelperBase - Locator By.xpath: //button[@id='login-submit'] clicked
+09:32:18 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //input[@id='password']
+09:32:18 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //input[@id='password'] is found
+09:32:18 INFO  manager.WebDriverListener - before click[[ChromeDriver: chrome on MAC (fce8ae64d2489b5ec4951132e4fc1460)] -> xpath: //input[@id='password']]
+09:32:18 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@id='login-submit']
+09:32:18 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@id='login-submit'] is found
+09:32:18 INFO  manager.WebDriverListener - before click[[ChromeDriver: chrome on MAC (fce8ae64d2489b5ec4951132e4fc1460)] -> xpath: //button[@id='login-submit']]
+09:32:18 INFO  manager.HelperBase - Locator By.xpath: //button[@id='login-submit'] clicked
+09:32:18 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //span[text()='Boards']
+09:32:32 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //span[text()='Boards'] is found
+09:32:32 INFO  manager.TestNGListener - TestNG listener Success: LoginPositivTest
+09:32:32 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //div[@data-testid='header-member-menu-avatar']/span
+09:32:32 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //div[@data-testid='header-member-menu-avatar']/span is found
+09:32:32 INFO  manager.WebDriverListener - before click[[ChromeDriver: chrome on MAC (fce8ae64d2489b5ec4951132e4fc1460)] -> xpath: //div[@data-testid='header-member-menu-avatar']/span]
+09:32:32 INFO  manager.HelperBase - Locator By.xpath: //div[@data-testid='header-member-menu-avatar']/span clicked
+09:32:32 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@data-testid='account-menu-logout']
+09:32:32 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@data-testid='account-menu-logout'] is found
+09:32:32 INFO  manager.WebDriverListener - before click[[ChromeDriver: chrome on MAC (fce8ae64d2489b5ec4951132e4fc1460)] -> xpath: //button[@data-testid='account-menu-logout']]
+09:32:38 INFO  manager.HelperBase - Locator By.xpath: //button[@data-testid='account-menu-logout'] clicked
+09:32:38 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@data-testid='logout-button']
+09:32:38 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@data-testid='logout-button'] is found
+09:32:38 INFO  manager.WebDriverListener - before click[[ChromeDriver: chrome on MAC (fce8ae64d2489b5ec4951132e4fc1460)] -> xpath: //button[@data-testid='logout-button']]
+09:32:43 INFO  manager.HelperBase - Locator By.xpath: //button[@data-testid='logout-button'] clicked
+09:32:43 INFO  tests.BaseTest - flagNeedLogoutfalse
+09:32:43 INFO  tests.BaseTest - method information LoginPositivTest
+09:32:43 INFO  tests.BaseTest - after method LoginPositivTest
+09:32:43 INFO  manager.TestNGListener - TestNG listener: Gradle test
+09:32:43 INFO  tests.BaseTest - close brauser
