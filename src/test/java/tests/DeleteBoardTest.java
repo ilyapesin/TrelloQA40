@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -16,6 +17,10 @@ public class DeleteBoardTest extends BaseTest{
     }
     @Test
     public void deleteOneBoardPositive() {
+        String name=randomUtils.createRandomString(4);
+        halperBoards.createNewBoard(name);
+//        halperBoards.deleteBoardByName(name);
+//        Assert.assertFalse(halperBoards.validateBoardExistByName(name));
 
     }
 }

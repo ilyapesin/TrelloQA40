@@ -40,9 +40,9 @@ public class HelperBase {
     }
 
 
-    public void pause() {
+    public void pause(int seconds) {
         try {
-            Thread.sleep(5000);
+            Thread.sleep(seconds);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -57,4 +57,8 @@ public class HelperBase {
             e.printStackTrace();
         }
     }
+    public void navigateBack(){
+        ApplicationManager.getWd().navigate().back();
+    }
+
 }

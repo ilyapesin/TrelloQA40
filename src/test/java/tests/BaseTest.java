@@ -6,6 +6,7 @@ import org.openqa.selenium.remote.BrowserType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.*;
+import utils.RandomUtils;
 
 import java.lang.reflect.Method;
 @Listeners(TestNGListener.class)
@@ -13,6 +14,7 @@ public class BaseTest {
     HelperUser helperUser = new HelperUser();
     HalperLogout halperLogout = new HalperLogout();
     HelperBoards halperBoards = new HelperBoards();
+    RandomUtils randomUtils = new RandomUtils();
 
     Logger logger= LoggerFactory.getLogger(BaseTest.class);
     UserDTOLombok user = UserDTOLombok.builder()

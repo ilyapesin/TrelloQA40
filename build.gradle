@@ -47,7 +47,7 @@ task groupstests(type: Test){
 task boards(type:Test){
     useTestNG(){
         def suite = System.getProperty('suite')
-        if(suite.equals ('boardst')) {
+        if(suite.equals ('board')) {
             suites 'src/test/resources/board.xml'
         }else{
             suites 'src/test/resources/testng.xml'
